@@ -4,4 +4,6 @@ pygments: true
 excerpt_separator: <!--more-->
 paginate: 3
 paginate_path: "blog/page:num"
-baseurl: "/longlever-corporate"
+url: "https://chickensmitten.github.io"
+baseurl: "longlever-corporate"
+
