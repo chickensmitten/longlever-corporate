@@ -1,6 +1,8 @@
-#Run Server
+#Run Server Locally
 
-To run server, type `bundle exec jekyll serve` in CLI
+To run server, type `jekyll serve --config _config.yml,_config_dev.yml` in CLI
+
+This ensures that the command line runs the dev config.yml file rather than the production config.yml file
 
 ----------------------------------------------------
 
@@ -30,3 +32,13 @@ Jekyll 4.0 onwards no longer support redcarpet. Have to change to kramdown.
 
 ----------------------------------------------------
 
+### JS, CSS and Images not loading
+
+Change the base URL and URL in `_config.yml` like below:
+
+`url: "https://chickensmitten.github.io"
+baseurl: "/longlever-corporate"`
+
+Then change the assets to include the base URL and URL like below:
+
+`{{ site.url }}{{ site.baseurl }}/css/framework.css`
