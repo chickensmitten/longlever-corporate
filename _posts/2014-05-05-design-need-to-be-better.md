@@ -5,7 +5,7 @@ date:   2014-05-05 20:37:53 +0800
 author: Andy Budd
 ---
 
-![computers]({{site.url}}/images/children.jpg)
+![computers]({{site.url}}{{site.baseurl}}/images/children.jpg)
 
 Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id
 

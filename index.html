@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Squarebox &gt; home
+title: HeyDavid &gt; home
 section_id: home
 works:
   - image: work-1.jpg
@@ -169,7 +169,7 @@ members:
   {% for work in page.works %}
     <li>
       <a>
-        <img src='{{site.url}}/images/{{ work.image }}'>
+        <img src='{{site.url}}{{ site.baseurl }}{{ site.baseurl }}/images/{{ work.image }}'>
         <div class='overlay'>
           <div class='thumb-info'>
             <h3>{{ work.title }}</h3>
@@ -285,7 +285,7 @@ members:
         {% endif %}
         <div class='medium-3 large-3 columns'>
           <div class='member centered-text {{active_class}}' data-target='#member-{{forloop.index}}'>
-            <img src='{{site.url}}/images/{{member.image}}'>
+            <img src='{{site.url}}{{ site.baseurl }}/images/{{member.image}}'>
             <h3>{{member.name}}</h3>
             <p class='position'>{{member.position}}</p>
             <p class='active-line'></p>

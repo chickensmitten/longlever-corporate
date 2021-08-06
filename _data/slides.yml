@@ -1,28 +1,28 @@
 - image: slide-1.jpg
   desc_location: left
   desc:
-    <h2>This is squarebox</h2>
+    <h2>Launch Your Online Presence</h2>
     <p>A creative responsive theme.</p>
     <div class='two spacing'></div>
     <a class='button boxed'>View Features</a>
 - image: slide-2.jpg
   desc_location: right
   desc:
-    <h2>Creative Design</h2>
+    <h2>Design Your Website with Us</h2>
     <p>Focus on every detail element.</p>
     <div class='two spacing'></div>
     <a class='button boxed'>Learn More</a>
 - image: slide-3.jpg
   desc_location: left
   desc:
-    <h2>Responsive Design</h2>
+    <h2>Responsive web Design</h2>
     <p>Let users access the theme with all devices</p>
     <div class='two spacing'></div>
     <a class='button boxed'>Learn More</a>
 - image: slide-4.jpg
   desc_location: right
   desc:
-    <h2>Very Easy to Use</h2>
+    <h2>HTTPS Secure</h2>
     <p>Almost every element could be customized</p>
     <div class='two spacing'></div>
     <a class='button boxed'>Learn More</a>

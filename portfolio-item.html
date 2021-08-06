@@ -16,7 +16,7 @@ images:
     <ul data-orbit=''>
       {% for image in page.images %}
         <li>
-          <img src='{{site.url}}/images/{{image}}'>
+          <img src='{{site.url}}{{ site.baseurl }}/images/{{image}}'>
         </li>
       {% endfor %}
     </ul>

@@ -72,7 +72,7 @@ works:
 <div class='full bg-3 light'>
   <div class='row'>
     <div class='large-6 columns'>
-      <img class='fadeinleft' src='{{site.url}}/images/ipad-air.png'>
+      <img class='fadeinleft' src='{{site.url}}{{ site.baseurl }}/images/ipad-air.png'>
     </div>
     <div class='large-6 columns'>
       <h2 class='light'>Who we are</h2>
@@ -121,7 +121,7 @@ works:
     <div class='large-12 columns'>
       <div class='three spacing'></div>
       <h2>Lovely Design</h2>
-      <img class='centered' src='{{site.url}}/images/design-show.png'>
+      <img class='centered' src='{{site.url}}{{ site.baseurl }}/images/design-show.png'>
     </div>
   </div>
 </div>
@@ -152,7 +152,7 @@ works:
       <a class='button boxed' href='#'>Know more</a>
     </div>
     <div class='large-6 columns'>
-      <img class='fadeinright' src='{{site.url}}/images/settings.jpg'>
+      <img class='fadeinright' src='{{site.url}}{{ site.baseurl }}/images/settings.jpg'>
     </div>
   </div>
   <div class='spacing'></div>
@@ -173,7 +173,7 @@ works:
   {% for work in page.works %}
     <li>
       <a>
-        <img src='{{site.url}}/images/{{ work.image }}'>
+        <img src='{{site.url}}{{ site.baseurl }}/images/{{ work.image }}'>
         <div class='overlay'>
           <div class='thumb-info'>
             <h3>{{ work.title }}</h3>

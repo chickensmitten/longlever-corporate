@@ -104,7 +104,7 @@ works:
       {% for work in page.works %}
         <li class='{{ work.categories | map:"name" | join:"##" | downcase | replace:' ', '-' | replace:'##', ' '}}'>
           <a>
-            <img src='{{site.url}}/images/{{work.image}}'>
+            <img src='{{site.url}}{{ site.baseurl }}/images/{{work.image}}'>
             <div class='overlay'>
               <div class='thumb-info'>
                 <h3>{{work.title}}</h3>
