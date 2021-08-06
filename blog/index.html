@@ -21,7 +21,7 @@ section_id: blog
     </div>
     <div class='info'>
       <h3>
-        <a href='{{post.url}}'>{{ post.title }}</a>
+        <a href='{{site.url}}{{ site.baseurl }}{{post.url}}'>{{ post.title }}</a>
       </h3>
       <p>
         By
@@ -32,7 +32,7 @@ section_id: blog
     </div>
     <div class='content'>
       {{post.excerpt}}
-      <a class='button' href='{{post.url}}'>Read more</a>
+      <a class='button' href='{{site.url}}{{ site.baseurl }}{{post.url}}'>Read more</a>
     </div>
   </div>
 {% endfor %}
