@@ -1,3 +1,9 @@
+#Run Server
+
+To run server, type `bundle exec jekyll serve` in CLI
+
+----------------------------------------------------
+
 ### Installation problems
 
 When installing, there is an issue where Ruby 3 doesn't have webrick. It gives an error that says:
