@@ -25,16 +25,16 @@ layout: default
             {% if paginator.next_page == 1 %}
               <a href="{{ site.base }}{{ site.baseurl }}/blog" class="older">Older Entries</a>
             {% else %}
-              <a href="{{ site.base }}/blog/page{{ paginator.next_page }}" class="older">Older Entries</a>
+              <a href="{{ site.base }}{{ site.baseurl }}/blog/page{{ paginator.next_page }}" class="older">Older Entries</a>
             {% endif %}
           {% else %}
             <span class="older">Older Entries</span>
           {% endif %}
           {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
-              <a href="{{ site.base }}/blog" class="newer">Newer Entries</a>
+              <a href="{{ site.base }}{{ site.baseurl }}/blog" class="newer">Newer Entries</a>
             {% else %}
-              <a href="{{ site.base }}/blog/page{{ paginator.previous_page }}" class="newer">Newer Entries</a>
+              <a href="{{ site.base }}{{ site.baseurl }}/blog/page{{ paginator.previous_page }}" class="newer">Newer Entries</a>
             {% endif %}
           {% else %}
             <span class="newer">Newer Entries</span>
