@@ -510,7 +510,7 @@ ul.gallery li a .overlay {
   transition: all 0.2s linear;
 }
 ul.gallery li a h3 {
-  color: #405a97;
+  color: white;
   margin-bottom: 10px;
 }
 ul.gallery li a p {

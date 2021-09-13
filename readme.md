@@ -55,7 +55,7 @@ Green: #69a193
 Orange: #e1a76b
 Orange 20% lighter: #ffda9e
 
-
+google "colour picker" to choose color
 
 
 
