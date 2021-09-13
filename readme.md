@@ -1,6 +1,6 @@
 #Run Server Locally
 
-To run server, type `jekyll serve --config _config.yml,_config_dev.yml` in CLI
+To run server, type `bundle exec jekyll serve --config _config.yml,_config_dev.yml` in CLI
 
 This ensures that the command line runs the dev config.yml file rather than the production config.yml file
 
@@ -42,3 +42,30 @@ baseurl: "/longlever-corporate"`
 Then change the assets to include the base URL and URL like below:
 
 `{{ site.url }}{{ site.baseurl }}/css/framework.css`
+
+
+
+------------------------------------------------------
+
+All CSS changes is in Style.css, it has been commented with "heydavid" for clarity
+
+Blue: #5963a7
+D. Blue: #405a97
+Green: #69a193
+Orange: #e1a76b
+Orange 20% lighter: #ffda9e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
